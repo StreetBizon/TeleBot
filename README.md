@@ -1,4 +1,4 @@
-# TeleBot# Telegram Recipe Bot
+# Telegram Recipe Bot
 
 Телеграм-бот для подбора рецептов по кухням и категориям с функцией перевода текста.  
 Работает на основе двух API: TheMealDB и MyMemory Translate.
@@ -677,7 +677,7 @@ try:
 Пытаемся отправить фото с подписью (лучше, чем просто текст).
 
 bot.send_photo(chat_id, img, caption=text, parse_mode="HTML")
-Отправка изображения; parse_mode="HTML" — чтобы теги <b> работали.
+Отправка изображения; parse_mode="HTML" — чтобы теги работали.
 
 except:
 Если отправка фото не удалась (например, URL недоступен)...
@@ -1046,7 +1046,6 @@ ChatGPT сказал:
 
 ## Установка
 
-```bash
 pip install pyTelegramBotAPI requests
 Запуск
 вставить Telegram-токен в переменную TOKEN в файле
